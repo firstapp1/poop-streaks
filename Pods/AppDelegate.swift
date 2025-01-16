@@ -1,12 +1,3 @@
-//
-//  AppDelegate.swift
-//  poop-streaks
-//
-//  Created by Emmet Reilly on 1/16/25.
-//
-
-
-import UIKit
 import Firebase
 import FirebaseMessaging
 import UserNotifications
@@ -14,43 +5,38 @@ import UserNotifications
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 
-    func application(
-        _ application: UIApplication,
-        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
 
+        // Request notification permissions
         UNUserNotificationCenter.current().delegate = self
-        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-        UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { _, error in
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, error in
             if let error = error {
-                print("Notification auth error: \(error)")
+                print("Error requesting notifications authorization: \(error)")
             }
         }
+
+        // Register for remote notifications
         application.registerForRemoteNotifications()
 
+        // Set Firebase Messaging delegate
         Messaging.messaging().delegate = self
-
         return true
     }
 
-    // APNs token registration
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
+        print("APNs token registered: \(deviceToken)")
     }
 
-    // Firebase Messaging Delegate
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
-        print("FCM Token: \(String(describing: fcmToken))")
-        // Optionally send token to your server
+        print("FCM token received: \(String(describing: fcmToken))")
+        // Save FCM token to Firestore or use it for testing
     }
 
-    // Handle foreground notifications (iOS 18 style)
-    func userNotificationCenter(
-        _ center: UNUserNotificationCenter,
-        willPresent notification: UNNotification,
-        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
-    ) {
-        completionHandler([.banner, .sound])
+    // Handle foreground notifications
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .sound])
     }
 }
+
