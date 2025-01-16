@@ -45,6 +45,10 @@
 		EFAFFF3E2D39647B004C70C6 /* poop-streaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poop-streaksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAFFF482D39647B004C70C6 /* poop-streaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poop-streaksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAFFF5B2D396AEB004C70C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFCD99A22D39A41E004AE259 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD99A62D39A425004AE259 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD99A92D39A42B004AE259 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD99AC2D39A438004AE259 /* grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -148,6 +152,10 @@
 		F40C9836A9B2C87CFB2FA5B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFCD99AC2D39A438004AE259 /* grpc.framework */,
+				EFCD99A92D39A42B004AE259 /* FirebaseMessaging.framework */,
+				EFCD99A62D39A425004AE259 /* FirebaseFirestore.framework */,
+				EFCD99A22D39A41E004AE259 /* FirebaseAuth.framework */,
 				6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */,
 			);
 			name = Frameworks;
