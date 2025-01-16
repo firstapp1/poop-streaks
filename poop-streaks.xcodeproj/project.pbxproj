@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAFFF5C2D396AEB004C70C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFAFFF5B2D396AEB004C70C6 /* GoogleService-Info.plist */; };
+		F8533A0453E420175FD28A34 /* Pods_poop_streaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAFFF3F2D39647B004C70C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAFFF262D396478004C70C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAFFF2D2D396479004C70C6;
+			remoteInfo = "poop-streaks";
+		};
+		EFAFFF492D39647B004C70C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAFFF262D396478004C70C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAFFF2D2D396479004C70C6;
+			remoteInfo = "poop-streaks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.release.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.release.xcconfig"; sourceTree = "<group>"; };
+		5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.debug.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.debug.xcconfig"; sourceTree = "<group>"; };
+		6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poop_streaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16CDC42D39707100FC4128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF16CDC52D3970BA00FC4128 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		EF16CDC62D3970FD00FC4128 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		EF16CDC72D39716B00FC4128 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		EF16CDC82D3971B000FC4128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF16CDC92D3971CF00FC4128 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EF16CDCA2D3971E000FC4128 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		EF16CDCC2D39720700FC4128 /* PoopRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopRecord.swift; sourceTree = "<group>"; };
+		EF16CDCD2D39724900FC4128 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		EFAFFF2E2D396479004C70C6 /* poop-streaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poop-streaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFF3E2D39647B004C70C6 /* poop-streaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poop-streaksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFF482D39647B004C70C6 /* poop-streaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poop-streaksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFF5B2D396AEB004C70C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFAFFF302D396479004C70C6 /* poop-streaks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "poop-streaks";
+			sourceTree = "<group>";
+		};
+		EFAFFF412D39647B004C70C6 /* poop-streaksTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "poop-streaksTests";
+			sourceTree = "<group>";
+		};
+		EFAFFF4B2D39647B004C70C6 /* poop-streaksUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "poop-streaksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAFFF2B2D396479004C70C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8533A0453E420175FD28A34 /* Pods_poop_streaks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF3B2D39647B004C70C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF452D39647B004C70C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C891B640E623E27934B03F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */,
+				EF16CDC42D39707100FC4128 /* AppDelegate.swift */,
+				EF16CDC62D3970FD00FC4128 /* AuthView.swift */,
+				EF16CDC72D39716B00FC4128 /* SignInWithAppleView.swift */,
+				EF16CDC82D3971B000FC4128 /* ContentView.swift */,
+				EF16CDC92D3971CF00FC4128 /* UserModel.swift */,
+				EF16CDCA2D3971E000FC4128 /* FriendModel.swift */,
+				EF16CDCC2D39720700FC4128 /* PoopRecord.swift */,
+				EF16CDCD2D39724900FC4128 /* FirestoreService.swift */,
+				EF16CDC52D3970BA00FC4128 /* AuthViewModel.swift */,
+				29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFAFFF252D396478004C70C6 = {
+			isa = PBXGroup;
+			children = (
+				EFAFFF302D396479004C70C6 /* poop-streaks */,
+				EFAFFF412D39647B004C70C6 /* poop-streaksTests */,
+				EFAFFF4B2D39647B004C70C6 /* poop-streaksUITests */,
+				EFAFFF2F2D396479004C70C6 /* Products */,
+				EFAFFF5B2D396AEB004C70C6 /* GoogleService-Info.plist */,
+				9C891B640E623E27934B03F3 /* Pods */,
+				F40C9836A9B2C87CFB2FA5B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAFFF2F2D396479004C70C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFFF2E2D396479004C70C6 /* poop-streaks.app */,
+				EFAFFF3E2D39647B004C70C6 /* poop-streaksTests.xctest */,
+				EFAFFF482D39647B004C70C6 /* poop-streaksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40C9836A9B2C87CFB2FA5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAFFF2D2D396479004C70C6 /* poop-streaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFF522D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaks" */;
+			buildPhases = (
+				A00FB310D2082F1A7823ABFA /* [CP] Check Pods Manifest.lock */,
+				EFAFFF2A2D396479004C70C6 /* Sources */,
+				EFAFFF2B2D396479004C70C6 /* Frameworks */,
+				EFAFFF2C2D396479004C70C6 /* Resources */,
+				373B9205E215C13871BA7737 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFAFFF302D396479004C70C6 /* poop-streaks */,
+			);
+			name = "poop-streaks";
+			productName = "poop-streaks";
+			productReference = EFAFFF2E2D396479004C70C6 /* poop-streaks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAFFF3D2D39647B004C70C6 /* poop-streaksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFF552D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaksTests" */;
+			buildPhases = (
+				EFAFFF3A2D39647B004C70C6 /* Sources */,
+				EFAFFF3B2D39647B004C70C6 /* Frameworks */,
+				EFAFFF3C2D39647B004C70C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAFFF402D39647B004C70C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFAFFF412D39647B004C70C6 /* poop-streaksTests */,
+			);
+			name = "poop-streaksTests";
+			productName = "poop-streaksTests";
+			productReference = EFAFFF3E2D39647B004C70C6 /* poop-streaksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAFFF472D39647B004C70C6 /* poop-streaksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFF582D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaksUITests" */;
+			buildPhases = (
+				EFAFFF442D39647B004C70C6 /* Sources */,
+				EFAFFF452D39647B004C70C6 /* Frameworks */,
+				EFAFFF462D39647B004C70C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAFFF4A2D39647B004C70C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFAFFF4B2D39647B004C70C6 /* poop-streaksUITests */,
+			);
+			name = "poop-streaksUITests";
+			productName = "poop-streaksUITests";
+			productReference = EFAFFF482D39647B004C70C6 /* poop-streaksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAFFF262D396478004C70C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EFAFFF2D2D396479004C70C6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EFAFFF3D2D39647B004C70C6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFAFFF2D2D396479004C70C6;
+					};
+					EFAFFF472D39647B004C70C6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFAFFF2D2D396479004C70C6;
+					};
+				};
+			};
+			buildConfigurationList = EFAFFF292D396478004C70C6 /* Build configuration list for PBXProject "poop-streaks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAFFF252D396478004C70C6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFAFFF2F2D396479004C70C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAFFF2D2D396479004C70C6 /* poop-streaks */,
+				EFAFFF3D2D39647B004C70C6 /* poop-streaksTests */,
+				EFAFFF472D39647B004C70C6 /* poop-streaksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAFFF2C2D396479004C70C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAFFF5C2D396AEB004C70C6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF3C2D39647B004C70C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF462D39647B004C70C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373B9205E215C13871BA7737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poop-streaks/Pods-poop-streaks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poop-streaks/Pods-poop-streaks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-poop-streaks/Pods-poop-streaks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00FB310D2082F1A7823ABFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poop-streaks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAFFF2A2D396479004C70C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF3A2D39647B004C70C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFF442D39647B004C70C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAFFF402D39647B004C70C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAFFF2D2D396479004C70C6 /* poop-streaks */;
+			targetProxy = EFAFFF3F2D39647B004C70C6 /* PBXContainerItemProxy */;
+		};
+		EFAFFF4A2D39647B004C70C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAFFF2D2D396479004C70C6 /* poop-streaks */;
+			targetProxy = EFAFFF492D39647B004C70C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFAFFF502D39647B004C70C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAFFF512D39647B004C70C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAFFF532D39647B004C70C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poop-streaks/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAFFF542D39647B004C70C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poop-streaks/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFAFFF562D39647B004C70C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poop-streaks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poop-streaks";
+			};
+			name = Debug;
+		};
+		EFAFFF572D39647B004C70C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poop-streaks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poop-streaks";
+			};
+			name = Release;
+		};
+		EFAFFF592D39647B004C70C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poop-streaks";
+			};
+			name = Debug;
+		};
+		EFAFFF5A2D39647B004C70C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W8DBPHJAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humor.poop-streaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poop-streaks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAFFF292D396478004C70C6 /* Build configuration list for PBXProject "poop-streaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFF502D39647B004C70C6 /* Debug */,
+				EFAFFF512D39647B004C70C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFF522D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFF532D39647B004C70C6 /* Debug */,
+				EFAFFF542D39647B004C70C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFF552D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFF562D39647B004C70C6 /* Debug */,
+				EFAFFF572D39647B004C70C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFF582D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFF592D39647B004C70C6 /* Debug */,
+				EFAFFF5A2D39647B004C70C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAFFF262D396478004C70C6 /* Project object */;
+}

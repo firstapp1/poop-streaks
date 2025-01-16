@@ -1,0 +1,6 @@
+framework module Pods_poop_streaks {
+  umbrella header "Pods-poop-streaks-umbrella.h"
+
+  export *
+  module * { export * }
+}
