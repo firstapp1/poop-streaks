@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0B5F533A8D723063C3516C /* Pods_poop_streaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9F0577AE342216F51F63BB /* Pods_poop_streaks.framework */; };
 		EFAFFF5C2D396AEB004C70C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFAFFF5B2D396AEB004C70C6 /* GoogleService-Info.plist */; };
-		F8533A0453E420175FD28A34 /* Pods_poop_streaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.release.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.release.xcconfig"; sourceTree = "<group>"; };
-		5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.debug.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.debug.xcconfig"; sourceTree = "<group>"; };
-		6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poop_streaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E783495D450C1EAFCB7554 /* Pods-poop-streaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.debug.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9F0577AE342216F51F63BB /* Pods_poop_streaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poop_streaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D336B1CD3D8151EF61940183 /* Pods-poop-streaks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poop-streaks.release.xcconfig"; path = "Target Support Files/Pods-poop-streaks/Pods-poop-streaks.release.xcconfig"; sourceTree = "<group>"; };
 		EF16CDC42D39707100FC4128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF16CDC52D3970BA00FC4128 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		EF16CDC62D3970FD00FC4128 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -72,11 +72,15 @@
 		};
 		EFAFFF412D39647B004C70C6 /* poop-streaksTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "poop-streaksTests";
 			sourceTree = "<group>";
 		};
 		EFAFFF4B2D39647B004C70C6 /* poop-streaksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "poop-streaksUITests";
 			sourceTree = "<group>";
 		};
@@ -87,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8533A0453E420175FD28A34 /* Pods_poop_streaks.framework in Frameworks */,
+				CF0B5F533A8D723063C3516C /* Pods_poop_streaks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +115,6 @@
 		9C891B640E623E27934B03F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */,
 				EF16CDC42D39707100FC4128 /* AppDelegate.swift */,
 				EF16CDC62D3970FD00FC4128 /* AuthView.swift */,
 				EF16CDC72D39716B00FC4128 /* SignInWithAppleView.swift */,
@@ -121,7 +124,8 @@
 				EF16CDCC2D39720700FC4128 /* PoopRecord.swift */,
 				EF16CDCD2D39724900FC4128 /* FirestoreService.swift */,
 				EF16CDC52D3970BA00FC4128 /* AuthViewModel.swift */,
-				29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */,
+				13E783495D450C1EAFCB7554 /* Pods-poop-streaks.debug.xcconfig */,
+				D336B1CD3D8151EF61940183 /* Pods-poop-streaks.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -156,7 +160,7 @@
 				EFCD99A92D39A42B004AE259 /* FirebaseMessaging.framework */,
 				EFCD99A62D39A425004AE259 /* FirebaseFirestore.framework */,
 				EFCD99A22D39A41E004AE259 /* FirebaseAuth.framework */,
-				6300AD9A40A4AA0D42F68782 /* Pods_poop_streaks.framework */,
+				9D9F0577AE342216F51F63BB /* Pods_poop_streaks.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,11 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFAFFF522D39647B004C70C6 /* Build configuration list for PBXNativeTarget "poop-streaks" */;
 			buildPhases = (
-				A00FB310D2082F1A7823ABFA /* [CP] Check Pods Manifest.lock */,
+				D69A894B8A391C7383B0462A /* [CP] Check Pods Manifest.lock */,
 				EFAFFF2A2D396479004C70C6 /* Sources */,
 				EFAFFF2B2D396479004C70C6 /* Frameworks */,
 				EFAFFF2C2D396479004C70C6 /* Resources */,
-				373B9205E215C13871BA7737 /* [CP] Embed Pods Frameworks */,
+				8C738A6802D1431C4577C599 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,7 +302,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		373B9205E215C13871BA7737 /* [CP] Embed Pods Frameworks */ = {
+		8C738A6802D1431C4577C599 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +319,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-poop-streaks/Pods-poop-streaks-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A00FB310D2082F1A7823ABFA /* [CP] Check Pods Manifest.lock */ = {
+		D69A894B8A391C7383B0462A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,7 +502,7 @@
 		};
 		EFAFFF532D39647B004C70C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AE997D4F195209F6C39FD91 /* Pods-poop-streaks.debug.xcconfig */;
+			baseConfigurationReference = 13E783495D450C1EAFCB7554 /* Pods-poop-streaks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -530,7 +534,7 @@
 		};
 		EFAFFF542D39647B004C70C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29568E20CE44CBEF7981BE5D /* Pods-poop-streaks.release.xcconfig */;
+			baseConfigurationReference = D336B1CD3D8151EF61940183 /* Pods-poop-streaks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
